@@ -7,7 +7,7 @@ import { ListBox, Select } from "@heroui/react";
 export function AddTasks({ createTask }) {
   return (
     <Modal>
-      <Button variant="secondary">Add Task</Button>
+      <Button variant="secondary">Add a Task</Button>
       <Modal.Backdrop>
         <Modal.Container placement="auto">
           <Modal.Dialog className="sm:max-w-md">
